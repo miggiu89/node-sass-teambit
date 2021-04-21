@@ -1,0 +1,93 @@
+#navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s;
+    a {
+        margin: 10px;
+        &:hover {
+            color: $colorHover;
+            i {
+                color: $colorHover;
+            }
+        }
+    }
+}
+#sign-up {
+    padding: 10px;
+    border-radius: 5px;
+    color: $colorLink;
+    border: 1px solid $colorLink;
+    font-size: 15px;
+    font-weight: bold;
+    img {
+        height: 15px;
+    }
+    &:hover {
+        background: $colorLink;
+        color: white;
+        transition: 0.5s;
+    }
+}
+#sign-up2 {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid $colorLink;
+    font-weight: bold;
+    background-color: $colorLink;
+    img {
+        height: 15px;
+    }
+    &:hover {
+        background: white;
+        color: black;
+        transition: 0.5s;
+    }
+}
+
+// banner
+.banner {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    .banner-sx {
+        width: 60%;
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+            padding-top: 50px;
+        }
+    }
+    .banner-dx {
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+    }
+}
+.subscribe {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    a {
+        margin-right: 20px;
+        margin-top: 20px;
+        &:hover {
+            color: $colorHover;
+        }
+    }
+}

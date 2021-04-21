@@ -1,0 +1,127 @@
+.traditional-container {
+    background-color: $colorBack;
+    text-align: center;
+    margin-top: 50px;
+    h1 {
+        padding: 50px;
+    }
+    img {
+        margin-top: 100px;
+        height: 400px;
+    }
+    hr {
+        margin: 50px;
+    }
+    .traditional {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        text-align: center;
+        img {
+            height: 100%;
+            max-height: 200px;
+            max-width: 200px;
+            margin: 50px;
+        }
+    }  
+}
+
+// feedback
+.feedback {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    p {
+        font-size: 15px;
+        width: 300px;
+        margin: 20px;
+    }
+    h1 {
+        margin: 10px;
+        padding-top: -10px;
+        
+        font-size: 20px;
+    }
+    a {
+        margin: 20px;
+        font-size: 10px;
+        color: $colorLink;
+        &:hover {
+            color: lightgrey;
+            i {
+                color: lightgrey;
+            }
+        }
+    }
+    i {
+        color: $colorLink;
+    }
+}
+.screen {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.icon-feedback {
+    display: block;
+    padding: 50px;
+    height: 200px;
+}
+.end {
+    justify-content: flex-end;
+}
+
+// founders
+.founders-container {
+    text-align: center;
+    background-color: $colorBack;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.founders {
+    text-align: left;
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #2C4792;
+    border-radius: 10px;
+    div {
+        display: flex;
+        align-items: center;
+        img {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-size: 20px;
+                color: #2C4792;
+                font-weight: normal;
+            }
+        }       
+    }
+}
+.founders-subscribe {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    a {
+        margin: 20px 20px 0px 20px;
+        &:hover {
+            color: $colorHover;
+        }
+    }
+}

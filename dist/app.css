@@ -1,3 +1,270 @@
-h1 {
-  color: yellow;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+  color: #58402C;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  padding: 30px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  transition: top 0.5s;
+}
+#navbar a {
+  margin: 10px;
+}
+#navbar a:hover {
+  color: lightgrey;
+}
+#navbar a:hover i {
+  color: lightgrey;
+}
+
+#sign-up {
+  padding: 10px;
+  border-radius: 5px;
+  color: #3111e6;
+  border: 1px solid #3111e6;
+  font-size: 15px;
+  font-weight: bold;
+}
+#sign-up img {
+  height: 15px;
+}
+#sign-up:hover {
+  background: #3111e6;
+  color: white;
+  transition: 0.5s;
+}
+
+#sign-up2 {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #3111e6;
+  font-weight: bold;
+  background-color: #3111e6;
+}
+#sign-up2 img {
+  height: 15px;
+}
+#sign-up2:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+.banner .banner-sx {
+  width: 60%;
+}
+.banner .banner-sx h1 {
+  font-size: 40px;
+}
+.banner .banner-sx p {
+  font-size: 20px;
+  padding-top: 50px;
+}
+.banner .banner-dx img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.subscribe {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.subscribe a {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.subscribe a:hover {
+  color: lightgrey;
+}
+
+.traditional-container {
+  background-color: #e8b8c1;
+  text-align: center;
+  margin-top: 50px;
+}
+.traditional-container h1 {
+  padding: 50px;
+}
+.traditional-container img {
+  margin-top: 100px;
+  height: 400px;
+}
+.traditional-container hr {
+  margin: 50px;
+}
+.traditional-container .traditional {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.traditional-container .traditional img {
+  height: 100%;
+  max-height: 200px;
+  max-width: 200px;
+  margin: 50px;
+}
+
+.feedback {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+.feedback p {
+  font-size: 15px;
+  width: 300px;
+  margin: 20px;
+}
+.feedback h1 {
+  margin: 10px;
+  padding-top: -10px;
+  font-size: 20px;
+}
+.feedback a {
+  margin: 20px;
+  font-size: 10px;
+  color: #3111e6;
+}
+.feedback a:hover {
+  color: lightgrey;
+}
+.feedback a:hover i {
+  color: lightgrey;
+}
+.feedback i {
+  color: #3111e6;
+}
+
+.screen {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.icon-feedback {
+  display: block;
+  padding: 50px;
+  height: 200px;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.founders-container {
+  text-align: center;
+  background-color: #e8b8c1;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.founders {
+  text-align: left;
+  background-color: white;
+  padding: 30px;
+  margin-top: 50px;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  border: 1px solid #2C4792;
+  border-radius: 10px;
+}
+.founders div {
+  display: flex;
+  align-items: center;
+}
+.founders div img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.founders div div {
+  display: flex;
+  flex-direction: column;
+}
+.founders div div h1 {
+  font-size: 20px;
+  color: #2C4792;
+  font-weight: normal;
+}
+
+.founders-subscribe {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+.founders-subscribe a {
+  margin: 20px 20px 0px 20px;
+}
+.founders-subscribe a:hover {
+  color: lightgrey;
+}
+
+.credits {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+.credits div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.credits div h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.credits div a {
+  margin: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+.credits div a:hover {
+  color: lightgrey;
+}
+.credits img {
+  padding-right: 10px;
+}
+.credits span {
+  color: #3111e6;
+  font-weight: bold;
+}
+.credits p {
+  width: 100px;
+  padding-top: 40px;
 }
